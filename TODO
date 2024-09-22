@@ -1,0 +1,23 @@
+Scala Made Easy
+
+Model a user and functionality for a portal called ScalaMadeEasy.com (of course it is fictional)
+
+A User visiting this website can
+
+Subscribe to the weekly newsletter (with an email address)
+
+Un-subscribe from the weekly newsletter
+Register as a student. (we need their email address and a password; the system must allocate a UUID to this user)
+Unregister from the site (we remove everything we have about this user from our system. GDPR strikes!)
+
+a registered user can take lessons
+a user who has finished 10 lessons is a certified Scala expert (yeah, sure!)
+
+What’s expected?
+
+Simple object modelling. No frameworks, no REST API, no DB.
+No mutation. i.e. No vars, no mutable data structures.
+No command line interface needed. Tests are your consumers. Tests with test framework of your choice (eg: ScalaTest).
+Bonus points for covering edge cases, e.g. a non-registered user should not be able to take a lesson.
+
+P.S.: the project is just a skeleton to help you to start coding faster, do whatever you want with the configuration.
